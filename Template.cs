@@ -8,7 +8,7 @@ namespace TemplateAPI
     {
         public static void init()
         {
-            KerbalWebProgramMod.webAPI.Add("doStage", new getExampleEndpoint());
+            KerbalWebProgramMod.webAPI.Add("getExampleEndpoint", new getExampleEndpoint());
         }
     }
 
