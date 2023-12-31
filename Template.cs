@@ -1,5 +1,4 @@
 ﻿using KerbalWebProgram;
-using KerbalWebProgram.KerbalWebProgram;
 using KSP.Game;
 
 namespace TemplateAPI
@@ -8,7 +7,7 @@ namespace TemplateAPI
     {
         public static void init()
         {
-            KerbalWebProgramMod.webAPI.Add("getExampleEndpoint", new getExampleEndpoint());
+            KWPmod.webAPI.Add("getExampleEndpoint", new getExampleEndpoint());
         }
     }
 
